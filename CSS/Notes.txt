@@ -77,3 +77,30 @@ p{
 
 6.Group selector:
 -It is used to select multiple elements in the html document.
+
+
+Felx Box:-
+-This property is used to structure the elements in row wise or column wise by giving space allocation for individual elements within the flex area.
+-Flex property is used in parent container to structure child element either in row or column
+Propertis of flex:-
+1.Flex-direction:-It specify from which direction the elements should be aligned.
+  /* flex-direction: row; */
+    /* flex-direction: row-reverse; */
+    /* flex-direction: column; */
+    /* flex-direction: column-reverse; */
+2.Justify-content:-This is used to allign the elements horizontally in the flex area.
+ /* justify-content: start; */
+    /* justify-content: center; */
+    /* justify-content: flex-end; */
+    /* justify-content: space-between; */
+    /* justify-content: space-around; */
+    /* justify-content: space-evenly; */
+3.Align-items:-It is used to align the items vertically in the flex area.
+/* align-items: end; */
+    /* align-items: center; */
+    /* align-items:start; */
+ 4.Flex-wrap:-It says whether flex items are forced into one line or wrap into multiple line.
+    flex-wrap:wrap;
+    flex-wrap:no wrap;
+ 5.Gap:-It is used to provide gap between child elements inside a parent container.
+    gap:20px;       
