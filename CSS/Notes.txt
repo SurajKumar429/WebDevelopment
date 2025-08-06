@@ -121,3 +121,15 @@ Propertis of flex:-
     1.Pixel(px):-
          It is fixed for each and every screen.
          1px=1/96inch.
+    2.%:-
+        It fully dependes upon their parent element.
+    3.vh/vw(viewport height and viewportwidth):-
+        It depends the size as per screen size(viewport)
+    4.vmax:-
+        It compares between vh and vw.
+        Which value will be greater 
+    5.em/rem:-
+        They are relative length units used for sizing elemnets particularly for typography.
+        em unit is relative to font size of parent element.
+        rem unit is relative to font size of root element/default font size.
+        1rem=16px.          

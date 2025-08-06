@@ -1,8 +1,8 @@
 nav{
    display: flex;
-   padding: 0 50px;
+   padding: 0 150px;
    height: 80px;
-   background-color: white;
+   background-color: slateblue;
    align-items: center;
    justify-content: space-between;
 }
@@ -15,6 +15,7 @@ nav ul select{
     border: none;
     outline: none;
     font-size: 18px;
+    background-color: slateblue;
 }
 #button1{
     background-color: yellow;
@@ -22,24 +23,127 @@ nav ul select{
     padding: 10px 35px ;
 }
 #button2{
-    background-color: skyblue;
+    background-color: rgb(20, 140, 187);
     padding: 10px 35px ;
+    color: white;
 }
 #button3{
-       background-color: skyblue;
+    background-color: rgb(20, 140, 187);
     padding: 10px 35px ;
+    border-radius: 5px;
+    color: white;
 }
 
 .parent{
     display: flex;
     justify-content:space-evenly;
     align-items: center;
-    height: 100vh;
-    gap: 20px;
+    height: 70vh;
+    gap: 0px;
+    background-color: slateblue;
 
 }
 .child2{
-    width: 452px;
-    height: 250px;
+    width: 500px;
+    height: 430px;
     background-color: rgb(214, 214, 218);
 }
+
+.child1 h1{
+    font-size:60px;
+    color: white;
+}
+
+.child1 p{
+    font-size: 20px;
+    color: white;
+}
+
+.parent2{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: white;
+}
+
+.child4{
+    background-color: burlywood;
+    height: 300px;
+    width: 450px;
+}
+
+#button4{
+    background-color: rgb(20, 140, 187);
+    padding: 10px 35px ;
+    border-radius: 5px;
+    color: white;
+}
+
+.child3 p{
+    font-size: 20px;
+}
+
+.child3 h1{
+    font-size:60px;
+}
+
+.parent3{
+    display: flex;
+     justify-content: space-evenly;
+    align-items: center;
+    background-color: white;
+    padding: 20px 60px;
+}
+
+.child6 p{
+    font-size: 20px;
+}
+
+.child6 h1{
+    font-size:60px;
+}
+
+#button5{
+    background-color: rgb(20, 140, 187);
+    border-radius: 5px;
+    padding: 10px 35px;
+    color: white;
+}
+
+.child5{
+     background-color:aquamarine;
+    height: 300px;
+    width: 450px; 
+}
+
+.parent4{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: slateblue;
+    padding: 40px 60px;
+}
+
+#button6{
+    background-color: rgb(20, 140, 187);
+    border-radius: 5px;
+    padding: 10px 35px;
+    color: white;
+}
+
+.child7 p{
+    font-size: 20px;
+    color: white;
+}
+
+.child7 h1{
+    font-size:60px;
+    color: white;
+}
+
+.child8{
+    background-color: bisque;
+    height: 300px;
+    width: 450px;
+}
+
