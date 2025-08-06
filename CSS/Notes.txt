@@ -103,4 +103,21 @@ Propertis of flex:-
     flex-wrap:wrap;
     flex-wrap:no wrap;
  5.Gap:-It is used to provide gap between child elements inside a parent container.
-    gap:20px;       
+    gap:20px;
+
+
+    Grid Layout:-
+         It is a two dimensional layout system for the webpage.
+         A grid is collection of horizontal and vertical lines creating a pattern against which we can line up our design elements.
+         They help us to create designs where elements dont jumps around or change width as we move from page to page.
+     Properties:-
+          display: grid;
+         /* grid-template-columns: repeat(4,1fr); */
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+    grid-template-rows: repeat(3,1fr);
+    gap: 20px;
+
+    CSS Units:-
+    1.Pixel(px):-
+         It is fixed for each and every screen.
+         1px=1/96inch.

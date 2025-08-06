@@ -1,0 +1,32 @@
+.child{
+    background-color: chocolate;
+    height: 150px;
+    width: 150px;
+}
+.parent{
+    background-color: aquamarine;
+    height: 80vh;
+    display: grid;
+    /* grid-template-columns: 200px 250px 200px; */
+    /* grid-template-columns: repeat(4,1fr); */
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+    grid-template-rows: repeat(3,1fr);
+    gap: 20px;
+}
+/* #box1{
+    grid-column: span 3;
+    grid-row: span 2;
+} */
+
+.box{
+    background-color: darkcyan;
+    /* height: 500px;
+    width: 600px; */
+    height: 30vh;
+    width: 40vmax;
+}
+.container{
+    background-color: cornsilk;
+    /* width: 50%;
+    height: 500px */
+}
