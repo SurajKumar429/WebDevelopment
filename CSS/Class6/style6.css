@@ -1,0 +1,49 @@
+.static,
+.relative,
+.absolute,
+.fixed,
+.sticky{
+    height: 150px;
+    width: 150px;
+}
+.static{
+    background-color: aqua;
+    position:static;
+    top: 100px;
+    left: 100px;
+}
+
+.relative{
+    background-color: aquamarine;
+    position: relative;
+    top: 50px;
+    left: 50px;
+}
+
+.container{
+    background-color:darkmagenta;
+    height: 300px;
+    width: 300px;
+    position:relative;
+}
+
+.absolute{
+    background-color: chartreuse;
+    position: absolute;
+    top: 50px;
+}
+
+.fixed{
+    background-color: coral;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+}
+
+.sticky{
+    background-color: darkcyan;
+    position: sticky;
+    left: 10px;
+    top: 100px;
+    z-index: 10;
+}

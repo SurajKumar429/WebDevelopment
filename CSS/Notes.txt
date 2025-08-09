@@ -132,4 +132,52 @@ Propertis of flex:-
         They are relative length units used for sizing elemnets particularly for typography.
         em unit is relative to font size of parent element.
         rem unit is relative to font size of root element/default font size.
-        1rem=16px.          
+        1rem=16px.
+
+
+        Transform Properties:-
+          These are used to transform or change an element from one from to another form or to move from one position to another position.
+
+          1.Rotate:-
+             It is used to rotate an object in clockwise or anti-clockwise direction.
+             To rotate an element we use degree(deg) as an unit.
+                             /* transform: rotateX(60deg); */
+                             /* transform: rotateY(60deg); */
+                             /* transform: rotateZ(60deg); */
+                             /* transform: rotate(50deg); */ 
+
+          2.Skew:-
+              It distorts point of an element by a certain angle in horizontal or vertical direction.
+
+              Properties:-
+              1.For horizontal skewx.
+              2.For vertical SkewY.
+
+          3.Scale:-
+              It allows us to resize an element compared to its original size.
+              Scale less than 1 will decrease the size and scale more than 1 will increase the size of an element.
+
+              Properties:-
+              1.ScaleX:-It will change the size in X axis or horizontally.
+              2.ScaleY:-It will change the size in Y axis or vertically.
+              3.Scale:-It will change the size in all direction.
+
+          4.Translate:-
+              It allows us to change the position of an element from its original position to another position along the X and Y axis.
+
+              Properties:-
+              1.TranslateX:It Translate the element over X axis from left to right or right to left.
+              2.TranslateY:It translate the element over Y axis from top to bottom or bottom to top.
+              3.Translate(value 1, value2):It translate the element in both the axis value 1 for X axis and Value2 for Y axis
+
+          5.Transition:-
+
+               Transition enable us to refine the transition between two state of an element smoothly.
+
+               Properties:-
+               1.transition-property: transform;:-Property for which you want to add transition.Example:font size,background color,all,etc.
+               2.transition-duration:Time to change from one state to another state.Example 1s.
+               3.Transition-timing-function:To control the speed.ease-in,ease-out,ease-in-out,linear,steps.
+               4.transition-delay:Delay to start the transition.Example:1s.
+               Or in short we can write:
+                   transition:propertyname duration timing-function delay;        
