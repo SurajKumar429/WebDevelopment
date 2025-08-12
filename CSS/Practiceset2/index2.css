@@ -1,0 +1,90 @@
+/* h1{
+    color: white;
+    text-align: center;
+} */
+
+/* p{
+    color: red;
+    letter-spacing: 4px;
+    line-height: 1.5;
+} */
+
+/* p{
+    background-color: yellow;
+    padding: 10px;
+    border:2px dashed blue;
+} */
+
+/* #main-box{
+    height: 200px;
+    width: 300px;
+    background-color: lightgreen;
+    border: 1px solid blue;
+} */
+
+/* .box{
+    padding: 20px;
+    margin: 30px;
+    border: 5px solid black;
+    background-color: lightgray;
+} */
+
+/* .block{
+    background-color: aqua;
+    display: block;
+}
+.inline{
+    background-color: aquamarine;
+    display: inline;
+}
+.inline-block{
+    background-color: lightgreen;
+    display: inline-block;
+} */
+
+/* .box1{
+    background-color: aqua;
+    height: 150px;
+    width: 150px;
+}
+.box2{
+    background-color: aquamarine;
+    height: 150px;
+    width: 150px;
+
+}
+.box3{
+    background-color: lightgreen;
+    height: 150px;
+    width: 150px;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height:300px;
+    background-color: cadetblue;
+} */
+
+/* .child{
+    background-color: aquamarine;
+    height: 150px;
+    width: 150px;
+}
+.parent{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2,1fr);
+    gap: 20px;
+} */
+
+.imagegal{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 15px;
+}
+
+.imagegal img{
+    border-radius: 10px;
+    height: 250px;
+}

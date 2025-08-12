@@ -180,4 +180,31 @@ Propertis of flex:-
                3.Transition-timing-function:To control the speed.ease-in,ease-out,ease-in-out,linear,steps.
                4.transition-delay:Delay to start the transition.Example:1s.
                Or in short we can write:
-                   transition:propertyname duration timing-function delay;        
+                   transition:propertyname duration timing-function delay;
+
+
+            6.Position Properties:- 
+                  It is used as a special method in css to specify the exact structure and position o feach element.
+                  It uses various methods like static,relative,absolute,fixed and sticky to specify the exact position of each element depeding on their behaviour.
+                  In CSS we have some properties which are used to change the position of an element.
+                  The properties are top right bottom left.
+                  However these properties will not work without mentioning the position property and its method.
+
+                  1.Static:-
+                     HTML elements are positioned static by default.
+                     These elements are not affected by top,right,left and bottom properties.
+
+                  2.Relative:-
+                     The element is positioned relative to its original position.
+                     Getting the top left right bottom value will move the elements from its original position and other elements will not be affected.
+
+                  3.Absolute:-
+                     It positions an element relative to its parent relative container.
+                     If there is no parent container with position relative then it relative to the body and these elements can overlap other elements.
+
+                  4.Fixed:-
+                     The Element will be fixed permanently at a specific position relative to body.
+
+                  5.Sticky:-
+                     The element will behave as normal element and gets fixed once it reaches ccertain point of the webpage.
+                     A sticky element toggles between relative and fixed depending on the posiion value.           
