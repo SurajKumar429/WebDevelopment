@@ -1,0 +1,26 @@
+# JavaScript:-
+   -It is a scripting and programming language which is used to add life scripting or dynamic response on a webpage.
+   -Netscape Communication hired to develop a scripting language for their browser Netscape navigator.
+   -Eich created javascript in just 10 days.
+   -The language was first called MOCHA then changed to LifeScript and finally JavaScript,not because it is related to java but as a marketing decision to capitalised on java popularity.
+   -It is used for building logic of webpage.
+   -It is high level programming language used in both client side as well as server side.
+   -Currently we are using JS version 6. That is es 6(echma script 6) which is also called as vanilla JS.
+   -Node Js is the run time environment of the JS.
+
+ # Scripting Language:-
+   -It is a type of programming language used to automate task that executes line by line.For example JS,Python,PHP,etc.
+
+ # Variable Keywords in JS:-
+   -They are used to declare  a Variable and to initialise a value to a variable.
+   -There are 3 types of variable Keywords:- var let and const.
+
+   * var:-
+     -If a variable is declared using var keyword then we can redeclare and re initialize the same variable.
+    
+   * let:-
+     -If a variable is declared using var keyword then we cannot redeclare and re initialize the same variable.
+
+   *const:-
+     -It stands for constant.
+     -If a variable is declared using const the neither we can redeclare  nor re-initialize same variable. 
