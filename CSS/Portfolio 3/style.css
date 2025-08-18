@@ -7,6 +7,9 @@
 .link a{
     color: black;
 }
+.link i{
+    transform: rotate(-45deg);
+}
 .port{
     display: flex;
     align-items: center;

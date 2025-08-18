@@ -128,3 +128,55 @@ b) Post-Increment :- returns the current value, then increments.
 2.Decrement (--):- Decreases the value of a variable by 1.
 a) Pre-Decrement :- decrements first, then returns the value.
 b) Post-Decrement:- returns the current value, then decrements.
+
+
+#Loops in JavaScript:-
+When we have to run the same sets of instruction over and over each time with different or with same value we use loops.
+Loops are used to repeat some task.
+ 1.For Loop:-
+  -It provides concise way of writting the loop structure containing initialization condition and updation in one line.
+  -A for loop repeats until a specified condition evaluates to false.
+
+
+#Conditional Statements:
+It is used to implement some condition in the code.
+With these statements we can make decision in our code thats why it is also known as decision making statement.
+There are four types of conditional statement available in javascript.
+  1.If statement:-
+    It executes the block if the condition is true.
+    When we have one statement which we want to execute based on a condition then we use simple if or if condition.
+    If the condition is false nothing happens.
+    for(initializatio; condition; itteration/updation){
+    //instruction
+    }
+
+  2.While Loop:-
+    -When we know starting point but we dont know the ending point in that case we use while loop.
+    -It executes its block as long as the condition is true.
+     initialization
+   while(condition){
+     //instructions
+     updation
+    }
+
+  3.Do While:-
+    -It is similar to while loop but the only difference is it executes the instruction first then it checks the condition.Thats why even the condition is false still the block of code will execute atleast once.
+      initialization
+    do{
+      //instruction
+      //updation 
+    }while(condition) 
+
+  4.For of:-
+      -It is a looping statement that itterates through the vlaue of an index based collection.For example string and array.
+      -It directly provides each value of the collection which can be processed within the loop.
+      for(iterator of collection){
+        //instruction
+      }
+
+  5.For in:-
+    It is looping statement that itterates through the key of an object.
+    for(iterator in object){
+        //instruction
+      }    
+     
