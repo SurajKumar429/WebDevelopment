@@ -100,17 +100,20 @@
 .dashboard{
     display: flex;
     gap: 30px;
-    box-shadow: 0px 1px rgb(217, 205, 181);
+    border-bottom: 3px solid rgb(164, 163, 163);
+    padding-bottom: 20px;
 }
 .potrait{
     display: flex;
     gap: 30px;
-    box-shadow: 0px 1px rgb(217, 205, 181);
+    border-bottom: 3px solid rgb(164, 163, 163);
+    padding-bottom: 20px;
 }
 .malayalam{
     display: flex;
     gap: 30px;
-    box-shadow: 0px 1px rgb(217, 205, 181);
+    border-bottom: 3px solid rgb(164, 163, 163);
+    padding-bottom: 20px;
 }
 .text h2{
     font-size: 35px;
