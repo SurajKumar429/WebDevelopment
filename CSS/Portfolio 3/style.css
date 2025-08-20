@@ -2,13 +2,22 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 30px;
+    margin: 20px;
 }
 .link a{
     color: black;
 }
 .link i{
     transform: rotate(-45deg);
+}
+#cc{
+    height: 10px;
+    width: 10px;
+    background-color: yellow;
+    display: inline-block;
+}
+#bb{
+    opacity: 22%;
 }
 .port{
     display: flex;
@@ -43,3 +52,103 @@
     font-family:cursive;
     font-weight: 1400;
 }
+
+.welcome{
+    background-color:#F8F8F8;
+    padding: 70px;
+}
+.welcome h1
+{
+    font-size: 80px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.welcome p{
+    font-size: 25px;
+    line-height: 1.6;
+    
+}
+
+.started{
+    margin: 80px 80px 0px 80px;
+}
+.assets{
+    background-color:#F8F8F8 ;
+    padding: 80px;
+}
+.assets h2{
+    font-size: 40px;
+}
+#see i{
+    transform: rotate(-45deg);
+}
+#see a{
+    color: black;
+    font-size: 19px;
+}
+#see a:hover{
+    background-color: aqua;
+}
+#exclaim i{
+    margin-right: 20px;
+}
+.assets p{
+    font-size: 19px;
+    line-height: 1.6;
+}
+h1{
+    font-size: 50px;
+}
+
+.get{
+    padding: 80px;
+}
+.check{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#F8F8F8 ;
+    padding: 0px 80px;
+}
+.check h1{
+    height: 50px;
+    width: 50px;
+    background-color: rgb(44, 44, 180);
+    color: white;
+    padding: 8px;
+    border-radius: 5px;
+}
+.check i{
+    transform: rotate(-45deg);
+}
+.check a{
+    color: black;
+    font-size: 20px;
+}
+
+.check a:hover{
+    background-color: aquamarine;
+}
+.check p{
+    font-size: 28px;
+}
+#out{
+    font-size: 20px;
+}
+
+.utilize{
+    display: flex;
+    background-color: #F8F8F8;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 80px;
+}
+.license{
+    padding: 80px;
+}
+.license p{
+    font-size: 20px;
+}
+
+
+    

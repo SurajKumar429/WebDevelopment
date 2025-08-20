@@ -130,14 +130,6 @@ a) Pre-Decrement :- decrements first, then returns the value.
 b) Post-Decrement:- returns the current value, then decrements.
 
 
-#Loops in JavaScript:-
-When we have to run the same sets of instruction over and over each time with different or with same value we use loops.
-Loops are used to repeat some task.
- 1.For Loop:-
-  -It provides concise way of writting the loop structure containing initialization condition and updation in one line.
-  -A for loop repeats until a specified condition evaluates to false.
-
-
 #Conditional Statements:
 It is used to implement some condition in the code.
 With these statements we can make decision in our code thats why it is also known as decision making statement.
@@ -146,7 +138,58 @@ There are four types of conditional statement available in javascript.
     It executes the block if the condition is true.
     When we have one statement which we want to execute based on a condition then we use simple if or if condition.
     If the condition is false nothing happens.
-    for(initializatio; condition; itteration/updation){
+    if(condition){
+      statement
+    }
+
+  2.If-else:-
+    -When we have two statements but one condition then we use if else condition.
+    -If the condition is true then statement under if block will get executed.
+    -If the condition is false then else block will be executed.
+    if(condition){
+      statement
+    }else{
+      statement
+    }
+
+  3.else if:-
+  When we have multiple statement and multiple condition in that case we can use else if condition.
+  First condition thats true is executed if none are true the else block runs or executes.
+  if(condition){
+    statement
+  }else if(condition){
+    statement
+  }else{
+    statement
+  }
+
+ 4.Switch case:-
+   -It is used to execute different blocks of code based on the value of an expression.
+   -It provides a cleaner alternative to multiple if else condition.
+   switch(expression){
+    case value1:
+    statement
+    break
+    case value2:
+    statement
+    break
+    case value3:
+    statement
+    break
+    default:
+    statement
+   }
+   Break is key word used to terminate execution
+
+    
+
+#Loops in JavaScript:-
+When we have to run the same sets of instruction over and over each time with different or with same value we use loops.
+Loops are used to repeat some task.
+ 1.For Loop:-
+  -It provides concise way of writting the loop structure containing initialization condition and updation in one line.
+  -A for loop repeats until a specified condition evaluates to false.
+  for(initializatio; condition; itteration/updation){
     //instruction
     }
 
@@ -180,3 +223,41 @@ There are four types of conditional statement available in javascript.
         //instruction
       }    
      
+
+
+   #Array Inbuilt Methods:-
+      Array have a variety of built in methods that helps us to manipulate and process data efficiently.
+
+      1.push():-It is an array inbuilt method which is used to insert numbers of element into an array at its last index position.
+      array.push(newElements)
+
+      2.pop():-It is used to remove one element from an array from its last index position.
+      array.pop()
+
+      3.unshift():-It is used to add numbers of new elements into an array at its starting index position.
+      The previous index position in the array will be switched by new elements.so the original elements in the array will switch to its next index position.
+      array.umshift(newElements)
+
+      4.shift():-It is used to remove one element from the starting index position from the original array.It will make other remaining elements in the array to shift to its previous index position.
+      array.shift()
+
+      5.splice():-It is used to add or remove or replace numbers of elements from any specific index position from an original array.It has three arguments:starting index, delete count, newElements.
+      From the start index we can delete numbers of values and add new elements from the same index position.
+      array.splice(startIndex, deletecount, newElements)
+
+      6.slice():-It is used to create a subarray from an original array.
+      It cannot effect the original array.
+      It takes two arguments: startingIndex, endingIndex.
+      It takes out the elements from the start index till the end index excluding end index.
+      array.slice(startIndex, endIndex)
+
+      7.include():-It is used to find that existence of an element in an array.
+      If the element is found it returns true if not it returns false.
+      It takes one argument that is search value
+      array.includes(searchValue)
+
+      8.reverse():-It is used to reverse the order of elements based on their index position.
+      array.reverse()
+
+      9.toString():-It is used to convert all the array elements into a single string.
+      array.toString() 
