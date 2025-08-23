@@ -109,8 +109,8 @@ let marks = [50, 55, 45, 56, 76, 89]
 // console.log(filterMarks);
 
 //! reduce()
-let total = marks.reduce((sum,mark)=>sum + mark,0)
-console.log(total);
+// let total = marks.reduce((sum,mark)=>sum + mark,0)
+// console.log(total);
 
 
 

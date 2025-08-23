@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+}
+header{
+  background-color: whitesmoke; 
+  height: 50px; 
+}
+h4{
+    padding-top: 14px;
+    padding-left: 150px;
+}
+
+nav{
+    padding: 10px 180px;
+    position: sticky;
+    top: 0;
+    background: white;
+}
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    list-style: none;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+}
+
+h3{
+    text-align: center;
+    font-size: 15px;
+    padding-top: 10px;
+}
+
+h3 a{
+    text-decoration: none;
+}
+
+h3 a:hover{
+    text-decoration: underline;
+}
+
+.hero1{
+    padding: 50px;
+    text-align: center;
+    height: 80vh;
+}
+.hero1 h1{
+    font-size: 70px;
+}
+.hero1 h2{
+    font-size: 30px;
+}
+
+#btn{
+    padding: 10px;
+    color: white;
+    background-color: rgb(59, 59, 199);
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+#btn1{
+    padding: 10px;
+    color: rgb(73, 73, 220);
+    border:1px solid blue;
+    border-radius: 20px;
+    cursor: pointer;
+}
+#btn1:hover{
+    background-color: rgb(59, 59, 199);
+    color: white;
+}
+.hero1 p{
+    padding-top: 20px;
+    font-size: 20px;
+}
+
+.hero2{
+    text-align: center;
+    height: 90vh;
+    background-color: lightblue;
+}
+.hero2 img{
+    height:250px;
+    width: 250px;
+    padding: 20px 30px 0px 0px;
+}
+.hero2 p{
+    padding-top: 20px;
+    font-size: 20px;
+}
+
+.hero2 h1{
+    font-size: 70px;
+}
+
+.hero2 h2{
+    font-size: 30px;
+}
+
+.hero3{
+    text-align: center;
+    height: 90vh;
+    color: white;
+}
+.hero3 h1{
+    background-color: navy;
+    width: 170px;
+    margin: 20px auto;
+    border-radius: 20px;
+    height: 150px;
+}
+.hero3 h2{
+    background-color: navy;
+    width: 150px;
+    margin: 20px auto;
+}
+
+
+
+
+
