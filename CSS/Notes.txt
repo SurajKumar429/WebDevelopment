@@ -79,7 +79,7 @@ p{
 -It is used to select multiple elements in the html document.
 
 
-Felx Box:-
+Flex Box:-
 -This property is used to structure the elements in row wise or column wise by giving space allocation for individual elements within the flex area.
 -Flex property is used in parent container to structure child element either in row or column
 Propertis of flex:-
