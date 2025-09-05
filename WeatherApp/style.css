@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image:url("https://cdn.pixabay.com/photo/2021/01/22/18/09/windy-5940755_1280.png") ;
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+}
+
+.card{
+    /* width: 90%;
+    max-width: 470px; */
+    width: 430px;
+    color:antiquewhite ;
+    background:linear-gradient(45deg, rgb(17, 99, 29), rgba(46, 155, 191, 0.237)) ;
+    border-radius: 2rem;
+    padding: 40px;
+    text-align: center;
+    margin-top: 27px;
+    /* position: relative; */
+    /* right: 20px; */
+    margin-left: 1018px;
+    margin-top: 70px;
+    box-shadow: 0 0 20px 5px rgba(255, 89, 0, 0.7);
+}
+
+.search{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.search input{
+    border:none;
+    border-radius: 3rem;
+    outline: none;
+    background-color: #ebfffc;
+    color: #555;
+    padding: 10px 25px;
+    height: 60px;
+    margin-right: 16px;
+    font-size: 18px;
+    flex: 1;
+}
+.search button{
+    border: none;
+    outline: none;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.search button img{
+    width: 16px;
+}
+.weather{
+    display: none;
+}
+.weather-icon{
+    width: 170px;
+    margin-top: 20px;
+}
+.weather h1{
+    font-size: 70px;
+    font-weight: 500;
+    margin-top: -10px;
+}
+.weather h2{
+    font-size: 42px;
+    font-weight: 400;
+    margin-top: -10px;
+}
+.details{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px;
+    margin-top: 30px;
+}
+.col {
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+.col img{
+    width: 40px;
+    margin-right: 10px;
+}
+.humidity,
+.wind{
+    font-size: 22px;
+    margin-top: -6px;
+}
+.error{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 16px;
+    display:none;
+}

@@ -297,5 +297,162 @@ Loops are used to repeat some task.
         -It is used to select and return the collection of nodes or elements using CSS selector mechanism. (.className, #idName, tagName)
         -It selects all the nodes that matches the specified selector.
         document.querySelectorAll("selector")      
+# String and it's methods:-
+-Strings in JS are immutable, meaning once created their values can't be change. 
 
+## Template String:- 
+-The collection of character that is written inside backtick(``) is considered as 'template string'.
+-The advantage of using template string is- 
+i)It let's user to interpolin the dynamic variable of JS inside the string.
+ii)It lets user to initialize multiple lines of string.
+
+## Template Literals:-
+By using ${variableName} we can create a dynamic variable that can be access inside an template string.
+Syntax:- This is a template literals ${variableName}
+
+## String inbuilt methods:- 
+1. indexOf():- It returns the first index occurrence of a specific substring within the original string.
+Syntax:- string.indexOf("subString")
+
+2. lastIndexOf():- It returns the last index occurrence of a specific substring within the original string.
+Syntax:- string.lastIndexOf("subString", endIndex)
+
+3. chatAt():- It returns the character at the specified index in the original string.
+Syntax:- string.chatAt(indexPosition)
+
+4. toUpperCase():- It converts all the characters in the string to uppercase.
+Syntax:- string.toUpperCase()
+
+5. toLowerCase():- It converts all the characters in the string to lowercase.
+Syntax:- string.toLowerCase()
+
+6. replace():- It replaces first occurrence of a specified substring with another substring in the original string.
+Syntax:- string.replace("searchString", "newString")
+
+7. replaceAll():- It replaces all occurrence of a specified substring with another substring in the original string.
+Syntax:- string.replaceAll("searchString", "newString")
+
+8. slice():- Extracts a section and returns a substring from start inex and end index but end index is excluded.
+Syntax:- string.slice(startIndex, endIndex)
+
+9. split():- It splits the string into an array of strings based on a specific separator.
+Syntax:- string.split("separator")
+
+10. length:- It is an operator used to find the length of a string.
+Syntax:- string.length
+
+# Function in JS:- 
+-Functions are a set of instruction or block of code used to perform some specific task.
+-There are two types of functions:-
+    -Pre-defined functions
+    -User-defined Functions
+
+## Pre-defined function:-
+-A function which is already written by JS developers with some specific task is known as pre-defined function.
+e.g:- push(), pop(), log(),....
+
+## User-defined function:- 
+- A function which is declared and written some instruction by the user is known as user-defined function.
+e.g: normal function,...
+-In JS to return a output from a function, we use "return" keyword.
+-There are two way we can create a function-
+i)-Type-A(Without parameter):- A function without parameters does not require any external input when called.
+-It simply executes a set of instructions.
+e.g:- function greet(){
+    print("Hello, everyone!")
+}
+greet()
+
+ii)-Type-B(With parameter):- A function with parameters allows us to pass values to customize its behavior.
+e.g:- function greet(name){
+    print(f"Hello, {name}!")
+}
+greet("Manas")  
+
+## Types of user-defined function:-
+1. Normal function:- A function which is declared using both function keyword and function name is known as normal function. 
+Syntax:- function functionName(parameter){
+    //instruction
+}
+
+2. Anonymous function:- A function which is declared without a function name but declared using function keyword and stored in a variable is called as anonymous function.
+Syntax:- const variableName = function(){
+    //instruction
+}
+
+3. Arrow function:- A function without a function keyword. 
+-Instead of function keyword we use arrow symbol.
+Syntax:- const functionName = ()=>{
+    //instruction
+}
+
+4. Callback function:- It is a function which is used to pass as an argument to another function.
+Syntax:- ()=>{
+    //instruction
+}
+
+# forEach() :-
+-It is a looping condition where the iterator of forEach loop will iterates through every elements in the array.
+Syntax:- array.forEach((iterator)=>{
+    //instruction
+})
+-It takes a Callback function as an argument in which the user will pass the iterator(accumulator) that iterates through every element of the array.
+
+# Array methods:-
+10. map():- It is used to traverse(visit) every element in the array.
+-It uses a callback function as an argument. 
+-Callback function uses accumulator as an argument, where each item will store once at a time starting from zero index.
+Syntax:- array.map((item)=>{
+    //instruction
+})
+
+11. filter():- It is used to traverse every element in the array and it will return a sub-array based on some condition.
+-If the condition is true then it will return the value else it will skip.
+Syntax:- array.filter((item)=>{
+    return condition;
+})
+
+12. reduce():- It is used to reduce multiple elements of an array into a single value.
+-It accepts a callback function that has two arguments; initial value and accumulator.
+Syntax:- array.reduce((initialValue, accumulator)=> initialValue += accumulator, 0)
+
+## Attribute Manipulation:- 
+-getAttribute(attr): Retrieves the value of the specified attribute from an element.
+-setAttribute(attr, value): Sets or updates the value of a specified attribute on an element.
+
+##Insert Element :-
+-node.append(ele) -> adds at the end of node (inside)
+-node.prepend(ele) -> adds at the start of node (inside)
+-node.after(ele) -> adds after the node (outside)
+-node.before(ele) -> adds before the node (outside)
+
+##Delete element:-
+-node.remove() -> remove/delete the node
+
+# Prompt in JavaScript:-
+-prompt() is a built-in function that allows users to input text.
+-It displays a dialog box with an optional message and an input field.
+-e.g:- let userName = prompt("Enter your name:");
+console.log("Hello, " + userName);
+
+# Alert in JavaScript:- 
+-alert() is a built-in function used to display messages in a pop-up box.
+-It pauses script execution until the user closes the alert.
+-Useful for notifications or warnings.
+-e.g:- alert("This is an alert message!");
+
+# Event in Javascript :-
+-The change in the state of an object is known as event.
+-Events in JavaScript allow us to interact with web pages dynamically.
+-Events are interactions that occur within a webpage.
+## Types of Events:-
+-Mouse Events: click, dblclick, mousedown, mouseup, mouseover, mouseout,...
+-Keyboard Events: keydown, keypress, keyup,...
+-Form Events: submit, change, focus, blur,...
+-Window Events: load, resize, scroll,...
+
+# Event Handling in JavaScript:-
+-JavaScript allows us to respond to user actions like clicks, key presses, and mouse movements through event handling.
+-Event handlers are functions that execute when an event occurs.
+Syntax:- node.event = () => { // handle here }
   
